@@ -5,11 +5,11 @@ from psycopg2 import OperationalError
 app = FastAPI()
 
 # Database configuration details (you can adjust these)
-DATABASE_HOST = "your_database_host"
+DATABASE_HOST = "localhost"
 DATABASE_PORT = "5432"
-DATABASE_NAME = "your_database_name"
-DATABASE_USER = "your_database_user"
-DATABASE_PASSWORD = "your_database_password"
+DATABASE_NAME = "test_db"
+DATABASE_USER = "test_user"
+DATABASE_PASSWORD = "test"
 
 @app.get("/")
 async def root():
