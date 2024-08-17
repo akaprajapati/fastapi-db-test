@@ -6,12 +6,12 @@ services:
     startCommand: "./start.sh"
     envVars:
       - key: DATABASE_HOST
-        value: "your_database_host"
+        value: "localhost"
       - key: DATABASE_PORT
         value: "5432"
       - key: DATABASE_NAME
-        value: "your_database_name"
+        value: "test_db"
       - key: DATABASE_USER
-        value: "your_database_user"
+        value: "test_user"
       - key: DATABASE_PASSWORD
-        value: "your_database_password"
+        value: "test"
